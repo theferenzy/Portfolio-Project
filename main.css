@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+* {
+    font-family: 'Signika', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+header{
+    grid-area: header;
+}
+nav {
+    background-color: #000;
+    font-weight: bolder;
+    grid-area: nav;
+}
+
+main {
+    color: white;
+    grid-area: main;
+}
+
+aside {
+    background-color: #FCAB10;
+    grid-area: aside;
+}
+
+footer {
+    grid-area: footer;
+}
+
+  @keyframes fade-in{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
